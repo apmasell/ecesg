@@ -12,5 +12,10 @@ You will need:
 - Make
 - courage
 
-On Ubuntu/Debian, you can `sudo apt-get install texlive xfig transfig make` and
-get everything but courage.
+On Ubuntu/Debian, you can:
+
+    sudo apt-get install texlive texlive-metapost xfig transfig make
+
+and get everything but courage.
+
+Oh, and if you think XFig is wretched, you should see the alternatives.
