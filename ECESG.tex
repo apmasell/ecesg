@@ -1,0 +1,514 @@
+\documentclass{book}
+\usepackage{graphicx}
+\usepackage[pdftitle={Il Studento di Ingegneria Elettronica ed Informatica},pdfauthor={Andre Masella},plainpages=false,pdfpagelabels,colorlinks]{hyperref}
+\usepackage{color}
+\usepackage{lettrine}
+\usepackage[vcentering]{geometry}
+%\geometry{papersize={6.25in,9.25in}}
+
+\author{Andre Masella}
+\title{Il Studento di Ingegneria\\ Elettronica ed Informatica}
+\begin{document}
+\newcommand{\tip}[1]{\vfil\medskip\noindent\hfil\colorbox[gray]{0.85}{\parbox{0.8\textwidth}{\lettrine[image=true,lines=3]{tip}{} #1 \smallskip}}\hfil\par\medskip\vfil}
+\frontmatter
+
+\maketitle
+\tableofcontents
+\listoffigures
+
+\chapter*{Preface}
+In 1513, Niccol\`o Machiavelli, wrote his famous book, \textsl{Il Principe}, which sought to explain how a prince must conduct himself to maintain control over his territories. Much of what he said was brutally honest and somewhat insulting. This book is designed to give the brutally honest advice on ``life'' here in ECE and is not meant to insult although it will, shamelessly. After bad classes, exams, and labs, students often demonise the ``responsible'' individuals. Although this might be therapeutic at the time, it is not fair. All of the people working at the University are probably real people with feelings. If you feel they have forgotten that you are a person, be the bigger person and remember that they are. Also, remember that they have been shaped by this environment longer than you and that should give you a source of empathy.
+
+\chapter*{Acknowledgements}
+I would like to thank all of my classmates and professors for providing the content for this book. I would especially like to thank my editors and direct contributors: Dan Heidinga, Jason Pang, James Schofield, and Professor Paul Ward. I would like to thank Maureen Stafford, Undergraduate Coordinator who made sure my degree navigated the paper-work sea. Most importantly, I would like to thank my family who undid months of ECE-induced insanity.
+
+\mainmatter
+
+\chapter{Introduction}
+If I had to summarise everything I have learned here, I only need one sentence:
+
+\begin{quote}
+\textit{Never attribute to malice what is adequately explained by stupidity.}
+\end{quote}
+
+In plain words: if you think someone is doing something to make your life miserable on purpose, but they might be doing it just because they are an idiot, assume they are an idiot. It keeps the blood pressure down.
+
+This guide attempts to explain how you need to conduct yourself to keep yourself sane and how ``the System'' works. \textsl{The more you understand the system, the better you can manipulate it.} Intelligence alone is not sufficient. You are required to be a student of engineering and all the math, physics, design, and programming that goes with it. However, if you are wise, you will also make yourself a student of the ``the System''. Understanding the interpersonal relationships between the faculty, staff, and other students allows you to use your time and resources more efficiently to get what you need done.
+
+Many people want to know if they are in the right place. Paul Ward believes there are fundamentally two kinds of ECE students. One group is made of applied physicists and they become electrical engineers. The other group is made of applied mathematicians and they become computer engineers. There is probably a third group who simply want to put their inflated high-school average to good use and spring-board into management. They have the flexibility to do well in either electrical or computer engineering.
+
+When in doubt, follow Paul Ward's personal principles:
+
+\begin{enumerate}
+\item Stay sane.
+\item Remember who you are.
+\item Do better or don't complain.
+\end{enumerate}
+
+\chapter{The Organisation}
+Should you ever find the organisational chart that describes how the University is set-up, you can immediately discard it because it is useless.  The University is organised like Medieval France or Feudal-Era Japan.\footnote{I highly recommend you read a history book on either of these two cultures. Who said history has no practical applications?} Both of these cultures had a system of fiefs. Fiefs are territories controlled by a lord. He would administrate the peasants in that territory and war with other fiefs. There were often allegiances between fiefs and sometimes a loose hierarchy. This is the right model for the University. When you think of a person, you should think about to whom they are loyal and whether what you need of them requires two warring fiefs to meet. The following is a map, but keep in mind that new hires, new offences, retirements, and the occasional olive branch change the map.
+
+\section{The University}
+At the upper-most level, the faculties are pretty much islands, other than strange hybrid programs like Software Engineering and Bioinformatics. Any plans made by one are completely unknown to the others. This can be a big advantage or a giant scheduling headache.
+
+\tip{Want to take a CSE but it conflicts with an ECE tutorial? Drop the ECE course, sign up for the CSE, then submit a Course Override Form for the ECE course.}
+
+The Registrar is a separate island. People in ECE speak in hushed words about things that are beyond their control because the Registrar does that. Although this is true, there is secretary-to-secretary respect, so the Undergraduate Coordinator can push a reasonable amount of paperwork through for you, but some things are controlled deep with in the bowels of Needles Hall\,(a.k.a.~Needless Hell)\footnote{For a map of campus with better names, go to the POETS door way and look up.}. Although the Registrar is all powerful, most undergraduates rarely deal with him. In fact, never go there first. Always go to the Undergraduate Coordinator first. The Registrar does decide the exam schedule and room bookings, neither of which you have any say in. The midterm schedule is almost completely controlled by the ECE Department.
+
+\section{The Faculty of Engineering}
+Much like the Registrar, there is very little need to talk to the Faculty directly. Most of the interaction can be done through the Undergraduate Coordinator. The Faculty does have control over the Iron Ring Ceremony. Every year there is the threat that IRC will be cancelled because of rowdy behaviour at the Iron Ring Stag~(IRS). In past the Dean has been okay with disruptive behaviour so long as it is confined to engineering, is non-destructive, and does not involve public intoxication. Some of his more powerful staff want higher standards. Be cautious and definitely avoid CPH on IRS.
+
+\section{The ECE Department}
+Ignoring the all-powerful administration staff (i.e., secretaries), the ECE Department is made of small subject-area research-related groups. The type of courses a professor is willing to teach is implied by his or her research group. The groups mostly match the ``themes'' described in Section~\ref{sec:calendar}, although those are often an aggregate of smaller groups. Most professors see their group are logically independent from others since the scope of their research is so different. The Department is simply an administrative construct above that. Politics is everything. The groups are generally friendly, but on the administrative level there is a complicated web of personality conflicts four years of research have only begun to uncover. It is best to assume any given professor is in a less-than-amicable-but-professional relationship with any other any other. Hopefully, it can be assumed that professors who are married to each other have a better relationship. Yes, ECE professors do intermarry. Yes, it is possible that they teach their children Fourier transforms at age~8, but it is best not to know. Also note that even if students find a certain professor universally disliked, that says nothing about how his peers feel about him. Avoid saying anything that will cause you to taste the strong flavour of foot.
+
+There is a small group of people who have the best interests of the students at heart. There is also a group of people who \emph{think} they have the best interests of the students at heart. Most of the problems, from an undergraduate point of view, occur because of clashes between these two groups. The group who is truly working in the students' favour is industrious, but hampered for two reasons. The first is that they spend most of their time dealing will small catastrophes, preventing them from working on large infrastructure-type issues. The second is that rate of problems is increasing faster than they can keep up. Fortunately, they have a significant chunk of administrative power and can, slowly, effect change. For example, there has been a curriculum reform spanning more than one class's enrolment period.
+
+After seeing the paperwork that makes the University run, one would expect the policy and procedure manuals for the Department to occupy a floor in the Dana Porter Library. In fact, the opposite is true. Almost none of the policies exist on paper. Most of them exist in the minds of the Undergraduate Coordinator, the Undergraduate Advisors, and the Undergraduate Chair. In short, their word is law. If you need something exceptional done, it is essential that you get them to sign-off on it. Do not accept anything verbal. Be sure it is on paper or in an email. If you are unhappy with the first answer you receive, try asking the level above. Often the answers vary. At some point you will hear the phrase ``Well, I don't know what they're talking about. We've always done it this way.''
+
+Professors are given annual evaluations. Their evaluations are based on research, teaching, and service. Loosely translated, ``service'' is the administrative bitch-work needed to keep the sky from falling. Certain people have continued to do service work because they care; however, many are just rotating through. The difference is obvious after 2.762\,minutes of conversation. Obviously, the people rotating through are interested in maintaining the status-quo and doing as little as possible. A clever student will guile these people into believing that granting their requests is saving work in the longish-run. An extremely clever student will guile these people into ``delegating'' this work to someone more amenable. Never expect a timely response from them. The evaluations do not take this discrepancy into account. Research is a more concrete analysis based on the number of papers published. The remainder of the evaluation is a mystery.
+
+\subsection{The Lab Staff}
+Politics is everything. The lab staff have become almost totally independent of the Department. Their internal politics governs almost all of the lab environment and external pressure has almost no effect on the lab staff. This isolation has lead to a deep stagnation. Change is a four-letter word. Having low-expectations makes the lab environment a more pleasurable one.
+
+The advantage to the lab environment is that is is very clear to see where the battle lines are drawn. Start by simply associating people with rooms and equipment, that is, territory. Watching different lab staff interact shows you, quickly, who is friendly with whom. A lack of interaction is safely taken as dislike. It should also be a quick discovery that the lab staff generally have ``quirky'' personalities. For further research, visit their personal websites. Whether the lab environment causes the quirkiness or the quirkiness attracts people to the lab environment is an interesting but, practically, unimportant question.
+
+Certain staff members are considerably less competent than others. You may feel that they should ``do their job'' but, for their pay, that is not worthwhile. Some of the staff were on the road to professorship, but got lost along the way and ended up as staff, carrying with them some bitterness. Others were people who could not ``cut it'' in industry and compromised pay for competency. Still others had an idealistic desire to teach. Unfortunately, we are to blame for destroying that. Never forget that we are part of the problem.
+
+\tip{Just agree with whatever the current member of the lab staff asks you. No matter how stupid it seems, complying will save you hours of wasted arguing.}
+
+\tip{``Tactical stupidity'' is the act of feigning stupidity to have some one do what you want. Although it is normally a powerful tool against technical people, since they cannot imagine anyone wanting to act stupid, it has varying degrees of success with the lab staff. Some of them can see through your Jedi mind-tricks.}
+
+It should be noted that hierarchy within the lab staff is fuzzy at best. Really, every man is for himself. There is also the unofficial tenure system. Lab staff are simply never let go. This is the way of things.
+
+\section{Non-Academic Organisations}
+There are all kinds of clubs hosted by FEDS. They have almost no organisational structure, so there isn't much to discuss. If you enjoy sports and have some amount of time free, CampusRec has all kinds of programs. If you are in need of stress relief, consider the kick-boxing, martial arts, or archery.
+
+\subsection{FEDS and EngSoc}
+FEDS is supposed to bring student issues forward to the University and have them addressed. They don't. There is a great rift between FEDS and engineering students in general. EngSoc is supposed to be a social committee of sorts, but ends up trying to pick up the balls that the FEDS drop even though its not their job.
+
+Even if EngSoc's drinking events are not for you, movies in POETS, the C\&D, cheap photocopies, and work-report binding are the small luxuries that make life here bearable. If you feel the need to complain about anything EngSoc does, remember that they have already gone above the call of duty. That being said, feel free to mock the articles in the Iron Warrior at length.
+
+As for FEDS, they are basically the derivative of a high-school student council. The Bus and the bars are probably their only useful services. The Imprint can be entertaining for first and second years, but by third, you'll realise there are only a handful of columnist archetypes: the left-wing nut job, the right-wing nut job, the guy who tries to offend everybody~(this may overlap with one of the nut jobs), the gay guy, and the slutty girl. It takes until fourth year to be frustrated with the answer to the cross-word clue ``an interjection'' being ``ahh''.  At first glance, each of the FEDS entities seems to act independently. However, like high-school student council, there is a limited set of people who have fingers in many pies.
+
+
+\subsection{WEEF}
+WEEF is good. I know it's clich\'e, but it's the truth. WEEF is performing CPR on much of the dying lab equipment. If you feel that WEEF money is misspent, attend a WEEF meeting and watch as experienced fourth-year students shoot down proposals for expensive, useless equipment put forth year after year by generally disliked ECE lab staff. WEEF's politics are basically the political agenda of the representatives. In short, each discipline is trying to slap down its stupid lab staff and reward the intelligent lab staff. At the same time, teams and 4YDP groups put on entertaining shows to beg for scraps. Your WEEF fee is, at the very least, a cheap theatre ticket.
+
+\subsection{Teams}
+There are many teams, such as WARG, UW ASIC, WOMBAT, Robotics, Solar Car, Concrete Toboggan. Each has their own politics, but they are generally friendly toward one another. It doesn't really matter since free time is a luxury you don't have.
+
+If you do have some free time, make an attempt to work in the Student Machine Shop. Home projects are discouraged, but if you go during off-peak hours when the mechanical engineers don't have assignments to complete, you can use it for your own creative purposes. It's important to get back to your true engineering roots once and a while by slicing metal blocks with sharp tools.
+
+\section{Computing}\label{sec:computing}
+There are three different groups that control the computers you deal with: Information Systems and Technology~(IST), Engineering Computing~(EC), and ECE Computing. IST runs general computing and manages the campus infrastructure. They are generally capable of doing things, but far removed from daily computing. The assume that everyone else is inept and are justified in believing this. EC manages the labs including Wedge, Wheel, Fulcrum, and so on, the Engage UNIX server, and EngMail. Their computers generally all work in a standard way and they don't like changing things, so any requests for new software are generally ignored. The assume IST and ECE Computing are inept and are justified in believing this. ECE Computing represents a number of smaller groups. Basically, each lab is managed by different people. The ``skinny'', Altera and ColdFire labs are managed by Eric Praetzel who does a decent job of keeping the systems running, but only according to his view of the world. Don't be expecting Microsoft Office to be installed anytime soon. If you speak to him, you will get war stories about how difficult it is to administrate Windows. Sanjay Singh and Bernie Roehl manage the Solaris computers. They have failed to copy the administrative system used by the much more competent MFCF and CSCF. Sanjay has a deep belief that you, the student, will be so impressed by the power of Solaris that you will go home and format your Windows computer. As a UNIX user, I am constantly in awe of how terribly configured those machines are. Please do not judge any UNIX system, Solaris or otherwise, based on your experiences here. If you manage to get your needed software running, you are very lucky. If you can install the software on your home computer and avoid ECE, I recommend that. Ed Spike seems to administrate his own computers. At first glance, they seem horribly crippled with limited network connectivity. This comes from a long-standing mutual dislike between him and Eric. Long ago, Ed, who is a scout leader, decided to let his scouts have an evening of networked Quake in his lab. He forgot to turn off the Quake server when he was done and it became publicly used. IST became angry when they saw gobs of bandwidth being used up. They yelled at Eric, who was the network administrator. Eric's solution was to lock down Ed's network access to a few essential ports on a few essential servers.
+
+\tip{To access your N~drive from home, download WinSCP for Windows or Fugu for Mac\-OS~X and log into to \texttt{engage.uwaterloo.ca}. Both Konqueror and Nautilus support \texttt{sftp://} URLs. You can get to your ECEUNIX files by using the same software to log in to \texttt{eceunix.uwaterloo.ca}.}
+
+To sort out the infrastructure, allow me to list your accounts.
+
+\begin{description}
+\item[NEXUS Account] --- Logs you into Engage, EC Labs, ECE Windows Computers, Science Labs, Arts Labs, and EngMail. Stores N~drive on \texttt{ecfile1} and Windows profile on \texttt{ecfile2}. Backups are made weekly, but they are difficult to access. Putting files in \texttt{N:$\backslash$public\_html} will be accessible as \texttt{http://www.\-eng.\-u\-wa\-ter\-loo.\-ca/\-\~{}\textit{yourid}}. If you wish to forward your email, forward all on-campus mail here and then forward only this account to your external service.
+\item[ECEUNIX Account] --- Logs you into ECE Solaris machines. Stores files accessible only through those machines. There is no Windows access to those files. It also accepts mail \texttt{@ecemail.\-u\-wa\-ter\-loo.\-ca}. There are backups made once a term that are impossible to access. Putting files in \texttt{\~{}/public\_html} will be accessible as \texttt{http://ece.\-u\-wa\-ter\-loo.\-ca/\-\~{}\textit{yourid}}. ECEUNIX machines also have a tendency to be renamed frequently and may go down at random times. Choosing a machine is a bit like playing roulette.
+\item[UWdir Account] --- Logs you into QUEST, JobMine, Angel/ACE, and laptop wireless connection. There is no file storage associated with this account. Your UWdir email address should always be set to your EngMail address.
+\item[MFCF Account] --- You will only get this account if you take a CS course, which you can do as a TE. Logs you into MFCF and CSCF computers, both Windows and UNIX. Stores files accessible only through those machines. It also accepts mail \texttt{@student.\-cs.\-u\-wa\-ter\-loo.\-ca}. There are backups made daily that are easy to access with a self-service restore program. Putting files in \texttt{\~{}/public\_html} will be accessible as \texttt{http://student.\-cs\-.u\-wa\-ter\-loo.\-ca/\-\~{}\textit{your\-id}}.
+\item[Angel/ACE] --- Although ACE uses the UWdir account, it stores files separately inside of itself. It does have a tendency to erase them every term. It also has its own email system which, through a cryptic series of menus, can be set to forward to your EngMail (and only your EngMail) account, but the messages will remain in ACE and attachments will be not be forwarded properly.
+\item[CourseBook] --- This represents another password-and-file-storage location, although the storage is weird at best. It is supposed to allow assignment submission, but there is nothing preventing it being used for general file store, except that files are erased every term. It's hosted on the WebObjects server.
+\item[WTR Status] --- Another WebObjects application that serves very little function with another password.
+\item[4YDP Project Site] --- You guessed it, another password providing service that could be done through one of the other systems.
+\end{description}
+
+If you ever feel your quota is too small, that means you just aren't spreading your files around enough. Never save anything to the desktop. It has a habit of evaporating. In fact, all of your personal setting may evaporate on certain machines.
+
+\tip{If you use your own computer to do something, you are better off doing so. Use the UW systems only as needed. The more software you can install on your personal computer, the happier you will be.}
+
+\tip{Being ``on-campus'' allows you to access certain services not available from off-campus computers. However, you can be on campus from off campus. If you have simple needs, logging into Engage or ECEUNIX using SSH and starting a web browser lets you surf on campus. You can also use SSH's port forwarding to access specific services, like \texttt{news.uwaterloo.ca} from off campus. Graphical applications can be run remotely on your Windows computer after installing Cygwin or Xming~(recommended). The server \texttt{engterm.uwaterloo.ca} provides access to a Windows computer through Microsoft's Remote Desktop Protocol. Macintosh and UNIX users can use the \texttt{rdesktop} client. The truly motivated can install a SOCKS proxy, such as Dante, on a ECEUNIX, use an SSH tunnel to access it, and have unrestricted ``on campus'' access from the comfort of their house.}
+
+\section{The Police}
+Many Frosh mistakenly believe that the Campus Police are not real police. They are. However, in some instances, they are more tolerant of idiotic behaviour, assuming you do not mock their authority. Their response to crime, however, is unusual. Parking violations are taken care of almost immediately, whereas, it took Campus Police 4\,hours to respond to a break-in at the Engineering C\&D. Their requests can be bizarre at times. For instance, one student was asked, at 2:00\,AM, to prove that he was the owner of the bike he was walking across campus.  
+
+\section{The Library}
+The Library is possibly the most competent organisation on campus. Most students use the library only for studying, but it is full of books that can clarify course concepts you don't understand, or provide solutions for forth-year design project problems, and has journals full of topical research at no charge to read and photocopy.
+
+If you want to read an electronic journal from the comfort of your own home, the Library provides a proxy service that will allow you to read a great many journals at no charge.
+
+There is also a large off-site annex. Should you need something from it, simply requesting it through the Library website will cause it to magically appear at the Davis circulation desk in a day or so. They won't even give you an evil look.
+
+\chapter{Lectures}
+You've been placed in a large room to listen to someone try to explain something you may or may not be interested in. This is the university experience.
+
+\section{The Calendar}\label{sec:calendar}
+In the Undergraduate Calendar there are descriptions of each course. There is also a collection of course descriptions maintained by the ECE Department referred to as the ``yellow book''. The Calendar is not an accurate reflection of the yellow book which is not an accurate reflection of the course material. This is partially because they are perpetually out of date. It is also because the professor strongly colours the course material. For most of the courses, this doesn't matter, since they are mandatory, but, it is important for the few precious electives. In this case, only people who have taken the course with the same professor can give a course description. Some professors will keep course websites available after they have taught a course, so information, even lecture slides, can be found by nosing around their personal pages. The course description can be approximated by one person who has taken the course with a different professor and one person who has had both the former professor and the current one. The course description is probably an accurate measure of the amount of calculus in the course.
+
+There is a numbering system used by the Department. The first digit indicates the year. The second digit indicates the course theme. The third may be a sequence or it may be meaningless.
+
+Theme numbers are as follows:
+\begin{description}
+\item[0] -- Multiple Subject Areas or Math
+\item[1] -- Communications
+\item[2] -- Digital Hardware
+\item[3] -- Analogue Hardware~(Devices and VLSI)
+\item[4] -- Signals~(i.e., Laplace Transforms) and Circuits
+\item[5] -- Software
+\item[6] -- Power Systems
+\item[7] -- Communications without Electricity~(Electromagnetism and Photonics)
+\item[8] -- Control Systems
+\item[9] -- Projects
+\end{description}
+
+\section{The Professor}
+The professor generally knows more about your class than you know about him. Yes, the professors talk to each other and give classes little nicknames, just like you give to him. So, while you're using terms like ``Dr.~Nyquil'' and ``Professor Pinhead'', they're using terms like ``the stupid class'' and ``the class that asks dumb questions''. Most people use \texttt{RateMyProfessor.com} to get some background information, but the three categories do not give a good indication of the professor's personality. The course critique results are also available on the EngSoc website. The course critique statistics don't always tell you what you need to know, but are much more detailed than the RateMyProfessor statistics.
+
+\tip{The statistical analysis of the course critiques can mask some of the ``true'' results. Be clear in your evaluation and fill in the extremes. Avoid the mean.}
+
+\tip{The course critique has two sides. One of them is read by a computer and results filed into a database. The other side is read first by a volunteer to check for appropriateness and then by the professor. No one beyond the volunteer and the professor will read the other side. You can write \emph{to} him. Do not put any identifying information or coarse language as the volunteer will throw away your sheet with \emph{both} sides.}
+
+\tip{For a good time, volunteer to read course critiques. Many people write entertaining things. Some even leave phone numbers and requests for a secluded rendez-vous. There is also free pizza.}
+
+These are the types of professors:
+
+\begin{description}
+\item[The Good Professor] actually enjoys teaching. He presents the material thoroughly and sets an exam that is a reasonable measure of the material. This comprises less than 10\,\% of the faculty.
+\item[The Adequate Professor] doesn't enjoy teaching, but he also doesn't enjoy listening to whining. He presents the material and sets a realistic exam in the hopes that no one will bother him. This type is more common and not unwelcome. Avoid pissing him off as this will make him angry instead of just annoyed.
+\item[The Research Professor] is operating at a level well beyond you. In fact, he is operating at so high a level, he can't come down to yours and explain. Read the text book. I'm sure he was doing high school calculus by grade~5 and spent the better part of high school gym class trying to prove that $P = NP$. Some of the keeners in your class may get him rambling about his research. Do your best to slap them down before you get dragged into $n$-dimensional vector spaces and everyday applications for fractals. His exam will be a collection of proofs you didn't understand.
+\item[The New Professor] is incapable of teaching. It's not that he doesn't want to teach, it is just that he doesn't know how. Deep inside, he aspires to be a Good Professor, but without proper guidance he will probably fail. Don't feel ashamed to give him advice. Remember to include some praise or you'll demoralise him into a research cocoon. His exam will be a wild card since he has no basis of comparison. If it is terrible though, he's more likely to fix the marks. The course critique statistics are part of the formula to determine if a professor gets tenure, so you can make a difference.\footnote{Complaining after the fact can also help. Sufficient complaining can relegate people to ``dark corners of the university.''}
+\end{description}
+
+Each of these types can either speak English or not. Not speaking English makes the situation more complex. Your ear for accents will improve as time passes. I'd like a small digression into linguistics to help you out.
+
+In East Asian, the English \textsl{r}\footnote{central alveolar approximant} and English \textsl{l}\footnote{lateral alveolar approximant}, don't exist. There is a sound which most English speakers hear as an \textsl{rl}\footnote{lateral apical post-alveolar flap} sound. This gets substituted for both \textsl{r} and \textsl{l} causing all words with \textsl{r} sounds so sound like \textsl{l} and vice versa. There are also vowels are always alone, not in groups\footnote{diphthongs and triphthongs}. This is best understood by having one person with an East Asian accent say \textsl{liar}. They will undoubtedly pronounce it \textsl{lye-ah}. The \textsl{th} sounds\footnote{dental fricatives}, are also very difficult and usually become \textsl{t}. Since tone has more meaning in Chinese than English, most Chinese speaks will speak English with a perfectly controlled flat tone, which makes them sound very, very boring. Finally, when an English speaker is thinking of what to say next, he will use a filler word like ``ah'' or ``um''. East Asian speakers extend the vowel of the last syllable.
+
+In South Asian languages, the vowels tend to be pushed around a bit, but that is fairly easy to understand. The \textsl{w} sound and the \textsl{v} sound\footnote{voiced labiodental fricative} tend to become an in-between \textsl{vwh} sound\footnote{labiodental approximant}. This makes works like \textsl{what} sound like \textsl{vhat}. Also, most South Asian languages have a different pronunciation for \textsl{d} and \textsl{t}\footnote{Retroflex plosive instead of alveolar plosive} which makes the whole head resonate when saying them\footnote{In old texts about South Asian languages, these were described as ``cerebral'' consonants}. In English, the \textsl{p} and \textsl{b} sounds are aspirated, that is, a puff of air is released. South Asian speakers generally do not aspirate those sounds; although, neither do speakers of many European languages including French and Italian. This is the source of Russel Peter's \textsl{paint} joke.
+
+In Arabic languages most of the sounds are pretty close, but a little bit harsher. Native Arabic speakers also seem to have trouble with diphthongs and are utterly confused by the fact that words like \textsl{wound} can be pronounced two ways\,(as in, the past tense of ``to wind'' or a kind of injury). The intonation is usually different and throws you off track. Sometimes, there is also difficulty making the \textsl{p} and \textsl{b} sounds differently.
+
+If you know what you are listening for, it becomes much easier to decode what your professor or TA is saying. If not, someone in the class probably speaks the same language and could engage the professor in his native language and then translate for the class.
+
+Teaching is evaluated through course critiques and considered in a professor's annual evaluation. That being said, the average person spends more time considering which sandwich is older at the C\&D. Once a professor has tenure, that is, he is an ``associate'' professor, he is unlikely to go away by any will but his own. Consider this: if a professor were found guilty of a crime an locked in jail, he would not be stripped of tenure. However, if they were in jail, he would not be able to teach the required number of classes per term and then would be fined. ``Assistant'' professors do not yet have tenure and can be seen making coffee for associate professors. Some ``professors'' are actually lecturers or sessionals. Lecturers do not do any research, but are simply there for the joy of teaching. Sessionals are graduate students hired to teach specific classes; something like the super-TA-ship. All of this information is available on the ECE ``People'' web page.
+
+\section{The Tutorial}
+Why are you still going to tutorials? Due to scheduling conflicts, the ECE Department allows you to override tutorials. It is out of this culture that tutorials have become useless. Occasionally, there is a good TA who does useful material, but this is rare. In the early years, you may find tutorials useful.
+
+\section{Your Peers}
+There are two kinds of people who are going to annoy you in lecture: those who don't bathe and those who ask stupid questions. ``Stupid questions'' is in fact a wide net that catches many types of questions.
+
+\begin{itemize}
+\item Questions to which the student already knows the answer
+\item Questions that the professor just explained
+\item Questions intended to show the smartness of the student
+\item Questions that try to push some agenda about how the subject material, professor, or conventional wisdom is wrong
+\end{itemize}
+
+As an outlet for this stress, I suggest playing keener bingo. Each of your friends creates a card with other students names on it. Every time your keener asks a question, you get to mark off their spot on the card. Feel free to place bets in increments for the first full line and the whole card.
+
+\section{Complaining}
+There is this implied culture that the only people who have earned the right to complain are those who are as smart as the professor. This is utter non-sense. However, if you bring reasonable complaints forward, your classmates will assume you are on the Dean's List. Feel free to use this to your advantage.
+
+The class reps are supposed to be a conduit for transferring complaining from students to someone who cares. This method is less than effective because, like all physical systems, energy is lost at each step. Try, as much as possible, to solve your own problems. If a due date is a problem for a large chunk of your class, nab your class rep, drag them to the professor after the lecture, and complain. Students have this ingrained fear that angering the professor will cause lightning to strike their transcript and turn their degree to ashes. Most professors will want the situation rectified immediately to prevent other students from complaining. Make sure your complaints are legitimate by talking to someone outside your clique. Also, learn the subtle difference between complaining and whining. At some point, you may just be out of luck. Too bad.
+
+If you have a real problem, such as a death in the family, or a health problem, you should go to \textsl{Counselling Services} as soon as possible. Even if you feel that you don't need someone professional to talk to, they can help by taking care of paper work and getting dead lines and examinations moved if necessary. It is essential that you do it \emph{as soon as possible}.
+
+\section{The Textbook}
+There are many options to consider before dropping two days worth of co-op pay on a bookshelf adornment you will never use.
+
+First, check the library for old editions. Often, there is no demand for older editions and you can keep one checked out for the entire term. Beyond that, for any given course, you will find that the DC library has an entire case of books on that subject material. You can certainly find \emph{a} textbook or set of textbooks that cover the same material, possibly better, and keep them checked out at no cost for the entire term.
+
+By doing some illegal importing, you can often find textbooks, identical to the ones here, printed in India on tissue paper. This is good for your back and your wallet, although reading the previous page through the current one can be irritating.
+
+If legality is not an issue, scouring the Internet for a PDF or CHM version is often successful. The more popular the book is, the easier it is.
+
+Finally, if you really need the textbook, make an investment in a digital camera and a good diffuse light source. With a little effort, you can take a photograph of each page in the book and store it on your computer. You can obtain the book temporarily from a friend, the reserve copy in the library, or simply buy it from the Bookstore and return it before the cut-off date. If a group of people is willing to work on this, you can share your photos to get the whole set of textbooks for the term.
+
+It is often the case that course notes completely cover the material and make the textbook pointless. Don't be fooled by the professor's statements of ``the lecture notes are not complete; you need the textbook''. That is only a suggestion. The textbook may be incomplete.
+
+\section{Marks}
+It is one of those unwritten rules that the examination in an ECE course will not be less than 50\,\% of the course mark. This means that assignments and labs are weighted pitifully against the final examination. Do the math and figure out the marks per minute. If you just spent 50\,hours on a busy-work assignment worth 5\,\% of your mark in a course where a 2.5\,hour exam will be worth 60\,\% of your mark, you just wasted a lot of time.
+
+Course work is important. I would not advise skipping it. However, it isn't worth losing sleep over. Now, CS students, who often have 50\,\% project courses, can lose sleep over course work.
+
+All students try to do the projects at the last minute. The faculty constantly tell students to start earlier. There is more than laziness at work. Often, projects have bugs in them. The keeners will start early and communicate the errors to the professor. By the time the typical student starts, a revised project is available, or a significant amount of help is already posted on the newsgroup.
+
+The other thing to note is that if a course has multiple grading schemes, usually one if you fail the final, they all must be explicitly stated\footnote{or incoherently mumbled} at the beginning of the course. Also, any course with an exam cannot have any material due after the last day of lectures. These rules are published in the \textsl{Book of Unwritten University Policies} not available at the Bookstore.
+
+It is common to assume that the following holds $$ \mbox{understanding} \to \mbox{well-written exam} \to \mbox{high mark} $$ This relation doesn't hold. It is important to un-learn this since it has no meaning in ECE. Badly designed exams based mostly on memorising destroys the relationship between understanding the material and writing a good exam. The bell curve destroys the relationship between the exam and the final mark. There are a few courses that follow this rule. Generally, people find them quite hard since they have become acclimatised to the ECE way of doing things. There's no point being \"uber-competitive and withholding information from others because there is generally no curve. Also, don't play help as a zero sum game. You may be rewarded much later, probably with interest.
+
+Marks are often adjusted despite statements to the contrary. How exactly the marks are adjusted is not always known though.
+
+\chapter{Labs}
+The human body decides to breathe in based not on the deficit of oxygen, but the presence of carbon dioxide. In normal situations, the two are fairly strongly coupled. Certain diseases or weird gasses can cause the two to be uncoupled leaving your body confused. At some point, the labs were designed to match the courses and were relevant. Clearly, like our breathing, the coupling was based on conditions that are no longer true.
+
+The curriculum taught in the course and the lab material are, at this point, almost completely unrelated. The lab instructors, for any given course, are not really answerable to the professor and since the lab instructors stay associated with a particular course's labs longer than the professor does, the lab instructors end up moulding the labs into whatever they please. This should explain most of how labs are handled.
+
+\section{Equipment}
+Some of the lab equipment is no doubt older than the students using them. Although it is good to try to use resources effectively, the staff have become pack-rats. This is demonstrated by their offices. Replacing lab equipment officially isn't done because it costs money, but the side benefit is that lab staff don't have to rewrite lab manuals.
+
+\subsection{The Oscilloscope}
+At the end of fourth year, most students don't know how to use an oscilloscope. Don't worry, you weren't supposed to know. After practise, most can handle the basics, but there is generally unspoken dark magic surrounding some of the buttons and precisely how to use them.
+
+If you really want to learn how to use an oscilloscope, look elsewhere for advice. Alternatively, buy an oscilloscope from the Surplus Sale and learn on your own time. This is also the only way to learn to solder. \textsl{The Source}, formerly \textsl{Radio Shack}, on Westmount sells very cheap soldering irons.
+
+\section{Educational Value}
+The educational value of many labs is suspect. This is particularly bad in circuits labs. Most of the time is spent frobbing the knobs of the equipment to produce the waveform that might be right. There is some important terminology to know:
+
+\begin{description}
+\item[tweak] (v.t.)~Slowly tune the knob on a piece of equipment while carefully observing the output to reach the desired value.
+\item[twiddle] (v.t.)~Quickly rotate the knob on a piece of equipment while observing the output to reach the right region.
+\item[frobnicate] (v.t.)~Wildly rotate the knob ignoring the output. \textbf{frobnicates, frobbed, frobbing}
+\end{description}
+
+Certain labs are a strange data collection expedition to come back with a list of strange voltages, currents, and graphs that are meaningless to you. It is doubtful you will ever understand what they mean, so it is best to just paste the figures into your lab book and copy the conclusions from the textbook. Do not try to get creative with the wording since the TA is likely marking against that very textbook.
+
+An observant student noted that there was significant discussion of meter-loading in the first-year circuits labs, but it was never discussed in any later labs.
+
+\section{The Reality Check}
+When you get to the point in a lab where you want to hide under your lab bench and fill out a transfer form, do the following calculation: $r = \frac{\Delta t}{180n}p$ where $n$ is the number of labs, $\Delta t$ is the time remaining in the lab in minutes, and $p$ is the percentage of your final mark the labs are worth. The result, $r$, is the remaining percentage points in the lab. You will quickly discover that labs are worthless. The usual grading scheme ensures that the exams are worth much, much more than the labs. The time spent in the lab is probably better spent preparing for the final.
+
+\chapter{Work Reports}
+After the vacation of co-op, you have to write a work report. The work report came into existence because the Canadian Engineering Accreditation Board decided that UW ECE students were doing insufficient technical writing. Since that time, the work report has taken on a life of its own.
+
+The name is misleading. It suggests that it is a ``report'' about the ``work'' done during the work term. The report is supposed to show ``Engineering judgement''. Unfortunately, most co-op students are not given the opportunity to use engineering judgement because it is a skill they have not acquired and, even if they had, would not have used in a 4~month period. This causes them to write a report that is not particularly related to the work they did. The advantage is that the report can be written at almost any point in the work term. It is probably best to do it fairly early and avoid the stress of coming back to campus and writing a work report at once.
+
+Choosing a topic is difficult. The markers complain that students tend to compare two pieces of software or hardware that an employer has already chosen between. They say that a comparison is not required. However, none can suggest any topic that shows engineering judgement that is not a comparison.
+
+After choosing the comparison to write about, many students fumble with the writing. The book \textsl{The Elements of Style} by Strunk and White is available in the Bookstore for an hour's pay and is probably the best investment in a writing guide you can make. Some of the older editions are available on-line in the public domain for free. It is much better than the technical writing book recommended in 1A.
+
+As for actually writing the document, most students will use Microsoft Word. I am an advocate of the \LaTeX{} document preparation system which is specifically designed to format reports and books\footnote{In fact, this has been prepared in \LaTeX{}}. This is helped by the template created by Simon Law specifically for ECE work reports. Also, \LaTeX{} makes it very easy to handle mathematical equations and can format references in any number of styles, including IEEE, automatically. Using \LaTeX{} is more like programming than writing and the underlying belief is the same as programming: if you tell the computer what you mean correctly, it will produce the correct output. There is a tough learning curve, but the DC library has a number of books on \LaTeX{}. Starting your work report early enough gives you time to learn. If you intend to use Microsoft, learn to use it correctly. Dividing your report's front matter, main matter, and back matter into separate documents and manually creating the table of contents is a sign of incompetence. It may feel stupid, but read a manual on using Microsoft Word efficiently. Again, the DC library is a good place to start.
+
+\tip{I recommend learning how to use a version control system, such as CVS, Subversion, git, Perforce, darcs, arch, bazaar, or Microsoft Source Safe. Although they are designed for code, they can do a good job with documents, including your work report. If you have an Internet-accessible server, it makes collaboration on group programming projects and group documentation a snap. Most systems work much better with plain text than binary files~(i.e., Microsoft Word). Personally, I forced my Fourth Year Design Project group to use CVS and \LaTeX{}. The fact that CVS would automatically merge one part of the report that I had written with another written by a different group member saved many headaches, lost document fragments, and accidental overwrites. The ``Versions'' and ``Track Changes'' features in Microsoft Word are poor substitutes for real version control.}
+
+Learning to write technically is difficult, especially if English is not your first language. The best way to learn to write technically is to read technical things. The badly translated manual for your motherboard does not count. Try finding interesting research papers. They need not be in the ECE realm. Biology, medicine, physics, and chemistry will do nicely.
+
+\chapter{PDEng}
+PDEng was designed by the Faculty to enrol students in an extra course every work term. This means they get extra money in subsidy. Never forget that \emph{this and only this} is the reason for PDEng. Anything else you may or may not learn is purely coincidental. This is all that needs to be said on the subject.
+
+\chapter{The Progression}
+The journey from happy, eager frosh to bitter graduate is long, but well marked. There are many points where you can turn off the road, but you probably won't.
+
+\section{Terms}
+Many people will ask which term is the hardest. There is no answer. Generally, a B term is harder than the corresponding A term, 4B being an exception. Some people will tell you that the early years are trying to ``weed out'' students. This is simply not true. The punishment is meant to continue through your entire degree.
+
+Is this really necessary? Absolutely. After the endless hours your pour into fruitless labs, the overtime demands of any employer will seem trivial. They are preparing you for real life with an engineering safety factor of 5. You are learning to do mountains of work without questioning the value of the work. This is every employer's, and probably spouse's, dream.
+
+In general the terms go like this:
+
+\begin{description}
+\item[1A] --- This is the most normal term. You are trying to adjust to university life like every other student. Most of your time is spent missing home cooking. Calculus and Physics seem hard, but you are coping.
+\item[1B] --- Now you are in the hands of ECE and they aren't going to waste any time. Consider this the stretching exercise to the marathon you are about to run. At this point, you probably begin to not understand things. I mean, what really is the difference between $\vec{H}$ and $\vec{B}$? Why are all the units dropped? What does anyone need an inductor for anyway?
+\item[2A] --- With your confidence shaken, 2A is meant to ease your fears just enough not to transfer. It doesn't seem harder than 1B, mostly because it isn't and you've begun to change. This does tend to be your first experience with labs. The lab instructors seem to hate ``the System'' and you may feel a certain connection. It's not real. ``The System'' they are complaining about is different from ``the System'' you are complaining about. You will also have to do your TPM.
+\item[2B] --- That confidence rebuilding in 2A wasted a lot of time. 2B is when it gets made up. You will also begin to experience the true pain of labs. Undoubtedly, you will wake up one morning and question why you stay here. You convince yourself that it can't get worse and you just have to get over this hump. This delusion is what keeps 80\,\% of people in the programme.
+\item[3A and 3B] --- There is debate over which is worse. The answer is: it depends on your interests. There are a few types of people: power systems, VLSI, software, controls, and communications. During 3B, you should figure out which it is. Ignoring this will make 4A and 4B a living nightmare or the best terms you've ever had.
+\item[4A] --- This term is dominated by the 4YDP, although you really spend little time on it. Most of your 4YDP time is spent creating pointless documents, most of which can't be written until the prototype is finished. Either way, most groups hack their project together in a week without sleep.
+\item[4B] --- After the 4YDP Symposium, you end up not caring\dots{}about almost everything. If you've chosen your courses correctly, you can drift almost unconscious through the term. There's debate about how to schedule courses. You can either save all your CSEs and dump most of them in 4B to create an Arts-like schedule, or you can spread them out evenly so you have at least one course to look forward to in each term.
+\end{description}
+
+\section{On Escaping}
+At some point, probably in 1B, you will first develop the desire to leave. This nagging feeling will continue until about the second last week of 4B. The question of whether staying is ultimately beneficial never goes away. Most people stay. There are a few major reasons for that.
+
+\begin{description}
+\item[Inertia] --- This is really a form of laziness. Considering how difficult any piece of paperwork is to push through, the idea of transferring seems like it will cause more suffering than staying will.
+\item[Fear] --- The fear of not finding somewhere to go, especially because of your depressed average, will probably haunt you enough to stay. It might be painful here, but at least it's familiar.
+\item[Failure] ---  You will always know that \emph{you} didn't make it.
+\item[Hope/Delusion] --- The power of the human spirit is truly amazing\dots{}or perhaps that human stupidity. Either way, the idea that it will get better, or might get better, or has the potential to get better, is enough to keep some people on course.
+\item[Cost] --- After sinking the amount spent on tuition, living expenses, and books, it hardly seems justified to leave.
+\item[Paper and Jewellery] --- The degree and the Iron Ring are enough incentive for some.
+\end{description}
+
+\subsection{Escaping Temporarily}
+There may come a time when you think you will go mad if you do not get out at least for a little while. There are two options: you can take a year off or you can go on exchange.
+
+Going on exchange allows you to spend a term in another school which, if you make your decisions right, will have a better climate and more instructors who speak English. Warmer climates can be extremely nice, although may be humid. Europe, while colder, provides skiing, historical sight-seeing, and good cuisine. More realistically, doing an exchange to Guelph would probably be good enough for most.
+
+At any point, you can take a year off and then join with the class behind you. There are some caveats. First, we are assuming there is only one class for you to join and they are on the same stream. That means you will have a co-op for 4\,months and then 12\,months of nothing. During that time, you can sit on a couch and eat ice-cream all day or travel abroad. Most students who take time off travel to Japan. Coming back can be an adjustment. For the first 2\,months, there is a period where you can delude yourself that ECE wasn't as bad as you remember it. However, when that wears off, it is like walking into a brick wall. Also, taking one year off doesn't change your programme. However, if you leave for a number of years and then come back, you may have to make up changes to the curriculum while you were gone.
+
+\section{Passing}
+Knowing if you passed, when on the borderline, can be a complicated. The flow charts shown in figure~\ref{fig:promotion} and figure~\ref{fig:promotion1A} are designed to help. It is based on the \textsl{Specific Degree Requirements} found in the \textsl{Undergraduate Calendar}. It is not accurate in all situations, especially since there are conflicting statments in the Requirements. This should cover 90\,\% of the cases. You should seek the counsel of the Undergraduate Coordinator as there will be paperwork.
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{promotion}
+\end{center}
+\caption{\label{fig:promotion}Promotion Decision Flow Chart for 1B or later}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{promotion1A}
+\end{center}
+\caption{\label{fig:promotion1A}Promotion Decision Flow Chart for 1A}
+\end{figure}
+
+For the record, it is possible to fail in 4B. Entertainingly, if you have an average less than 60\,\% in 4B, but more than 50\,\% in all your courses, you must repeat 4B, but replace all the courses with CSEs.
+
+\section{The Technical Presentation Milestone}
+In 2A, you must do a technical presentation. This should be easy, but many people still manage to do a terrifically poor job. First, pick a topic and then decide what you are going to talk about. If your entire talk can be summarised by a table, your subject material is not good. If you need 3~slides of algebra to explain your topic, your subject material is not good. Remember: a picture is worth 1\,000~words, or, 1~kiloword. If you can compress 3~slides of algebra into 1~graph, do it. Your presentation is supposed to serve some point, if only in theory. As general ideas: perhaps you can rate the advantages and disadvantages of some design or purchasing choices. Perhaps you can explain why the industry practise is the way it is and why the competitors were eliminated. It might also be useful to explain why the pros and cons of a variety of systems actually put them in different niches. Be expected to answer competently in your subject area. It is better to pick an area that is less ``technical'' where you are more knowledgeable. Perhaps you can explain the differences in the flavours of the products of the Maillard reactions in the malt in various brands of beer. If you can competently explain how tho get from a carbonyl group to a ketosamine, you'll do much better than explaining wireless networking standards you know nothing about.
+
+If you are reasonably organised and debug your presentation with your friends, this should be fairly easy and straight forward. The educational value is somewhat suspect since most people who know how to make presentations need no further guidance and those who cannot need more guidance. If it all falls apart, SPCOM~223 is not so bad.
+
+\chapter{Understanding Bureaucracy}
+Bureaucracy comes from two word: the French \textsl{bureau}, meaning desk or office, and the Greek \textsl{kratos}, meaning power or rule. The people who run the bureaucracy know it well. There are only two ways to work with in it: find some one who will show you mercy, or, learn the system better than them. Reading the policies of the Registrar, Secretariat, Faculty, and Department are an excellent place to start. That covers none of the unwritten rules, but it gives you a footing. The mountains of paperwork and reams of forms might make you think that the people in the bureaucracy like all this paperwork. This is a common misconception. In fact, they hate it. The sly student will be able to get what he needs done by always giving a choice between a simple request, which is what he truly wants, and a request that will require a forest to be clear cut. The person given this choice will always choose the former.
+
+That being said, the secretaries, or administrative assistants, as they prefer to be called\footnote{Some one pointed out that, in government, it is the secretaries that have all the power. E.g., secretary of state}, are your allies. They don't have vested interests in the academia of the department, so they are more capable of sympathising with you. That being said, you should be very appreciative. Your entire life here rests in the hands of the secretaries. Show them the utmost respect and your small favours will be granted. Although they lack the power to fail you, they can send you on wild goose chases and make things you need difficult. When you go to them, especially with a Course Override Form, have it filled out completely and correctly. Do not aggravate them by showing up just before lunch or the end of the day. If they are busy, wait patiently and silently.
+
+The Course Override form is undoubtedly the most important form. It acts as a general permission form. It is always sent to the Undergraduate Coordinator and you can submit scanned copies by email.
+
+\section{The Flow of Information}
+We live in the Information Age. The University does not. There are a variety of databases storing information about courses, library books, WatCard balances, and lab booking times. Almost none of these databases can talk to each other. There is no real way to get all information about a student. This can be a disaster or a bonus.
+
+When you need people to gather far away information, there is no way for them to access it. There is no way to really prove to a CSE professor that you have a lab at a given time. This has created a culture where people believe the information you tell them, even if they can check it.
+
+Say you wish to take a course from another department. Take a correctly filled out Course Override form to the other department and tell them that the ECE Department says it is allowed if they are happy with it. Take the partially completed form to ECE and tell them that the other department signed it, so it must be allowed. These two departments will never communicate.\footnote{The secretaries may talk to each other, but this is unlikely.} The only piece of information shared between them is your Course Override form. You control the flow of information.
+
+You may have tried this on your parents. ``Well, what does your $\langle$other parent$\rangle$ say?'' ``They said to ask you.'' You can only play that game for so long because your parents communicate with each other. Once that communication is gone, its easy to put words in the other person's mouth.\footnote{Perhaps this experience is different for people whose parents are divorced.}
+
+At the very least, rest easy knowing there isn't a big database where they know everything. The competency of the computing environment should demonstrate that this is not feasible here.
+
+\section{On Email}
+A particular problem of our generation is the use of email. There is a hierarchy of communication methods. The more personal the form of communication, the more likely you are to get a response. If you don't hear back from an email, call the person on the phone. If that doesn't work, go visit them in person. You are not harassing them if you leave an appropriate amount of time\footnote{As a rough guide, allow 2~days for most urgent matters and a week for other matters.} in between each. Visiting someone in person connects a face to a form and makes you more memorable than simply some text on a computer screen. If you make a bad impression by being snotty and rude, it may be better to be less memorable.
+
+\chapter{Keeping Sane}
+Your sanity is a very precious resource; one which you are at great risk to lose. I recommend you find a collection of outlets for your stress.
+
+\section{Hobbies}
+Everyone needs a hobby. Time investment is a problem. You should budget two hours a week to your hobby at the very least. You may already have hobbies, but there are hobbies which are most useful in ECE.
+
+Sports make an excellent hobby because they can physically exhaust you. Particularly during exam season, you mind and spirit may be exhausted, but you body will be twitching with nervous energy. A sport that can drain off that nervous energy is very useful. If not a sport, consider the gym; it will certainly help to compensate for the inactivity you spend staring at a professor, TA, or computer screen all day. Running and biking are also good, although not practical in the winter. Although, you could jog through the buildings, adding a lot of stairs. A nice circuit from MC, DC, E3, E2, DWE, RCH, E2, Physics, EIT, ESC, and MC could be good.
+
+If sports aren't your thing, at least choose a hobby that requires concentration, but no intellectual activity. Chess is definitely a bad idea. Knitting, baking, art, whittling, wood-working, puzzle making, juggling, and foot-bagging are all excellent choices. They require a lot of concentration, but not much thinking. This lets the higher parts of your brain relax.
+
+Computer games are a popular choice, but it is probably best to distance yourself from a computer for at least two hours a week and something that addictive may be dangerous during exam season. TV is mindless, but it also doesn't require concentration, so all the terrible thoughts of Karnaugh maps and 3-phase circuits will still be rattling around in your head.
+
+\section{Revenge}
+Especially after certain lab events, you might feel the need for revenge. It generally won't work. Since the lab staff aren't answerable to anyone, most attempts to punish them will fail. This failure will probably frustrate you further, potentially making you as bitter as Jason Pang, father of the Soul Transfer form. However, I did submit a programming assignment with all the variables and functions in French. That was rather enjoyable.
+
+\section{Venting}
+Your classmates are the only people who really understand how angry you are. Sitting around and bitching can be an extremely useful activity. It lets you know that you are not alone in your anger and talking about it allows you to process your feelings. It many not change anything, but at least you'll feel better.
+
+\section{Nautical Events}
+There will be announcements about nautical events or posters featuring the logo shown in figure~\ref{fig:boatrace}.  If Dragon boat racing is your sport, do not attend. These ``boat races'' are really a drinking relay game. There are no boats; only glasses of Brick washed in bleach. Putting together a team is a matter of class honour. An honour which computer engineers frequently turn to shame. If you need more information, consult the Internet or enquire subtly around engineering. EngSoc needs to maintain distance from the events for liability reasons. If your class is lucky, you might be able to find a mentor to train you. Also, avoid attending morning boat races when you have a lab in the afternoon that requires programming in assembly. This is a mistake one $2^{\mathrm{nd}}$-year team made.
+
+\begin{figure}
+\begin{center}
+\includegraphics{boatrace}
+\end{center}
+\caption{\label{fig:boatrace}Nautical Event Logo}
+\end{figure}
+
+\chapter{Campus}
+There are many useful parts of campus not normally publicised.
+
+\section{Buildings}
+Winter is cold. It is possible to not go outside.
+
+Avoid the 7$^{\mathrm{th}}$ and 9$^{\mathrm{th}}$ floors in Dana Porter as there is a tendency for people to be ``studying reproductive biology'' on those floors. Tread carefully.
+
+\subsection{Tunnels}
+B1, B2, Chemistry, CPH, DC, E2, E3, EIT, ESC, MC, Physics, and RCH are effectively one building. A map is shown in figure~\ref{fig:map}. The links are as follows: 
+
+\begin{description}
+\item[B1 -- B2 -- ESC] The buildings are all run together.
+\item[Chemistry -- ESC] The upper floors of the buildings connect.
+\item[Chemistry -- MC] The basement of Chemistry connects to MC.
+\item[CPH -- DWE] The third floors of DWE and CPH connect.
+\item[CPH -- E2] The east edge of E2 runs into the west edge of CPH on all floors.
+\item[DC -- Chemistry] The western edge of DC connects to Chemistry.
+\item[DC -- E3] The north edge of E3 runs into the south west corner of DC. Note that there are two stair cases that connect the buildings. One is actually in DC through a single doorway marked ``Stairs''.
+\item[DC -- EIT] The second floor of DC connects to the third floor of EIT near the ECE Department Office.
+\item[DC -- MC] The north edge of floors 2 and 3 of DC extends west to the north east corner of MC on floors 3 and 4, respectively.
+\item[DWE -- RCH] The west edge of the first floor of DWE connects to the centre of second floor of RCH.
+\item[E2 -- E3] The north edge of E2 runs into E3.
+\item[E2 -- RCH] The west edge of the first floor of E2 connects to the centre of second floor of RCH.
+\item[E3 -- Physics] The third floor of the buildings connect.
+\item[EIT -- ESC] The third floor of ESC connects to EIT. The second floor is outside, but covered.
+\item[EIT -- Physics] All three floors of Physics connect to EIT.
+\end{description}
+
+\begin{figure}
+\begin{center}
+\includegraphics{campus}
+\end{center}
+\caption{\label{fig:map}Campus Building Connections Map}
+\end{figure}
+
+South campus hall connects through a tunnel to the Tatham Centre and Arts Lecture Hall. The PAC and the SLC are also connected. If you have a chance, visit the basement of Biology~2; you are almost in the steam tunnels. Note that \emph{nothing} connects to Needless Hell.
+
+\subsection{Discontinuities}
+The following buildings have discontinuous floors:
+
+\begin{description}
+\item[DC] The first floor does not span the entire building.
+\item[DWE] The third floor is split in two.
+\item[E3] The third floor does not span the entire building.
+\item[EIT] No floor in this building is continuous. No elevator or stair case services all floors. Room numbers with beginning with the same first number may be more than $8'$ apart vertically. Floors marked \textsl{P} face the Physics building.
+\end{description}
+
+\section{Satellites}
+The University is the process of creating satellite campuses. This is in an attempt to be more like A-league universities\footnote{Yes, UW is B league. Get over it.}. Since universities, such as U of T, have smaller satellite campuses, UW is following suite with the School of Architecture in Galt and the School of Pharmacy in Kitchener. As an engineering student, you will never have to go to these campuses, so you can simply not care. If you enjoy a riddle though, you can try to figure out why the university would build the School of Architecture in Galt instead of on one of the many corn fields in North Campus.\footnote{\rotatebox{180}{The answer is money. The City of Cambridge paid, not the University.}}
+
+\section{Engineering Machine Shop}
+Located in E3, it is a place where you can have access to metal-working equipment at no cost. If you are not doing a software-only design project, this can be very useful.
+
+\section{Central Stores and the Surplus Sale}
+Central Stores sells off surplus equipment every few weeks around lunch. Their website has the times. If you need an cheap computer for 4YDP, it is the best place to go. They also can have bikes and furniture. They have their sale in East Campus Hall on certain Thursdays between 12:30 and 2:00 and there is usually a board stating that their will be a sale in the morning. Go early and wait at the east-most doors on the north side.
+
+\section{Bike Racks}
+The are bike racks on the south-west corner of SCH, west, east and north sides of EIT are all covered. The racks under the link between ESC and B1 are covered, but usually full. The rack just north of the CPH loading bay is partially covered and usually not full.
+
+\section{Sleeping}
+There are lots of good places to sleep on campus --- even better than class. For lower year students, the POETS balcony is an obvious choice. Upper year students have the luxury of the ECE lounges.
+
+If you intend to spend the night, you are not supposed to sleep in the ECE lounge.\footnote{More specifically: you are not supposed to get caught.} If you have a softie friend who will let you sleep in the SoftEng lounges, that would be good. The EIT Caf\'e is also deserted in the evenings. MC's Comfy Lounge is a popular choice, as is the Great Hall in the SLC.
+
+\section{Random Facts}
+The highest point on campus is a corn field in North Campus. It is higher than the top of the DP library.
+
+There are steam tunnels connecting all the buildings. They were never open to the public and being caught in one is begging for expulsion.
+
+There are private showers in the centre-most E3 bathroom.
+
+When doors are locked on weekends, you can be guaranteed that doors by the loading docks and the doors in DC will be unlocked. Since internal doors are never locked, you can move freely between most of the buildings.
+
+Room numbering in EIT makes sense only in a $6\frac{1}{2}$-dimensional space projected into 3~dimensions. The floor plans don't accurately show the discontinuities in the floors. If you can't find a room, try a different stairwell or get directions. Just because the doors on the floor you are on start with the right number, that does not mean the room you are looking for is on that floor.
+
+The Engineering, Math, and Science C\&Ds will unload all their expired stock at the end of the day. This basically involves plopping it outside of the C\&D shortly after closing. The doughnuts were never fresh, so they can't go stale. You'll have to be quick though.
+
+The chunk of gneiss located by EIT~1015 cost one million dollars.
+
+The Latin motto is \textsl{Concordia cum verit\ae} which is supposed to mean ``In harmony with truth'', but it can be translated as ``A compromise with reality'' or ``An agreement not to lie''.
+
+The Department has officially changed its name from ``E\&CE'' to ``ECE'' around 2006. The course codes changed a long time ago when QUEST was first introduced because it choked on the ampersand. ``ECE'' courses originally were ``Early Childhood Education''. Equipment is branded ``ECE'', ``E\&CE'', or simply ``EE'' depending on the age.
+
+\chapter{The End}
+So, you've made it to $4^{\mathrm{th}}$ year. Congratulations. The Iron Ring Stag has a usual schedule as follows:
+
+\begin{description}
+\item[4:00\,AM -- Prank] Many students like to pull a prank. It is important that the prank be non-destructive and not messy. Plan early and have your supplies ready. It is important to do it after 4:00\,AM as the custodial staff finish at that time. Offensive posters are a usual hit. Past pranks include stringing up clothes lines in RCH, creating balloon art in the DC foyer, building a brick wall in front of a select professor's door, and blocking off a hallway with water-filled cups. Take a picture as the more entertaining your prank is, the faster custodial staff will dismantle it.
+\item[7:00\,AM -- Champagne Breakfast] This involves a hearty breakfast of alcohol and pancakes to fuel the rest of the day. A group of people in the class usually organise this either at their home or a proper venue.
+\item[9:30\,AM-11:30\,AM -- Campus Tour] Sufficiently lubricated, lacking alcohol bottles, students usually tour the engineering parts of campus in strange attire. This usually involves visiting lower-year engineering classes and making sure that nothing is being taught. Costuming is important. The \textit{Value Village} in Kitchener is often the starting place for costumes and there is usually some kind of partially naked 80's theme. Cross-dressing is not uncommon. It is essential that the costumes be garish.
+\item[12:00\,AM -- POETS Countdown] There is a counter to IRS on top of the fridge in POETS. At noon, it will reach zero.
+\item[1:00PM-4:00PM -- Sobering Up] The Iron Ring Ceremony is solemn. This is the opportunity to eat, shower, and dress oneself appropriately.
+\item[4:00\,PM-7:00\,PM -- IRC] The Iron Ring Ceremony is held at some point during this time. This is when you actually get your ring. There are several ceremonies since to accommodate the different classes. The activities during the ceremony are not discussed with non-ringed people. The first rule about IRC is you do not talk about IRC.
+\item[9:00\,PM -- Party] EngSoc now organises a party at a club. Traditionally, you are only permitted to wear black, so your package includes a pair of black boxer shorts so that you will never appear naked\footnote{Please, do not appear naked.}. Anything which is not black is supposed to be torn off at the door. Generally, many people do not participate and they are not forced. However, it should be easy for most people to dress completely in black and avoid having clothing removed or being a spoil-sport.
+\end{description}
+
+The are some people who do not drink for religious, health, or personal reasons. This does not exclude you from IRS. Although the booze flows, participation is more about acting crazy after years of hard work. The general insanity is easy to get swept up in, even without booze. Often, sparkling grape juice is provided as an alternative at the Champagne Breakfast. At the very least, do not attend class. Only very sad souls attend class on IRS.
+
+\section{The Ring}
+The ring is a symbol that you persevered and made it through. It a visible symbol that you've been to hell and back and held your own. It also permits you to sign passports.\footnote{Well, technically, having your P.~Eng lets you sign passports.}
+
+You will note that the ring is patterned. This is not decorative, as engineers are incapable of doing decorative things. These ridges are meant to be serrations to cut into your hand as a constant reminder of the human suffering you must prevent through good design. Computer engineers generally \emph{cause} suffering through user-interface design.
+
+Since the only materials course taught focused on silicon, most ECE engineers won't notice that the ring is actually made of stainless steel, not iron. Granted, stainless steel is mostly iron; it also contains carbon, chromium, and nickel. Camp~1, which services University of Toronto and Ryerson University, still offers rings made of wrought iron which turn human skin a fashionable shade of green and slowly corrode.
+
+\chapter{Closing}
+Engineering is hard. This never comes across. You will eventually understand.
+
+
+\appendix
+\chapter{The Soul Transfer Form}
+A frustrated student, Jason Pang, created the Soul Transfer form. It parallels the Course Override form. Thanks to a sense of humour by Professor Harder, it now appears on the ECE Website.
+
+\vfil
+\pagebreak
+
+\noindent
+\includegraphics[angle=90]{soul-transfer}
+\end{document}

@@ -1,0 +1,6 @@
+*.aux
+*.lo?
+*.mp*
+*.out
+*.toc
+ECESG.pdf

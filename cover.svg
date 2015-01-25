@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1116"
+   height="832.5"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44"
+   version="1.0"
+   sodipodi:docname="cover.svg"
+   sodipodi:docbase="/home/andre/School/ECESG">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#800"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10000"
+     objecttolerance="10000"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.65105105"
+     inkscape:cx="558"
+     inkscape:cy="416.25"
+     inkscape:document-units="in"
+     inkscape:current-layer="layer1"
+     width="892.8pt"
+     height="666pt"
+     units="pt"
+     inkscape:window-width="1024"
+     inkscape:window-height="745"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     borderlayer="false"
+     showgrid="true"
+     gridspacingx="1pt"
+     gridspacingy="1pt"
+     grid_units="pt"
+     inkscape:object-bbox="false"
+     inkscape:object-points="false"
+     inkscape:object-nodes="true"
+     inkscape:grid-points="true"
+     inkscape:object-paths="false"
+     inkscape:grid-bbox="true"
+     inkscape:guide-bbox="true"
+     showguides="true">
+    <sodipodi:guide
+       orientation="horizontal"
+       position="131.29032"
+       id="guide2844" />
+    <sodipodi:guide
+       orientation="horizontal"
+       position="68.629032"
+       id="guide2846" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="625.12097"
+       id="guide2848" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="1014.5161"
+       id="guide2850" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="271.53226"
+       id="guide2852" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="552.95203"
+       id="guide2854" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="560.63192"
+       id="guide2856" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:SolexMedium"
+       x="1015.3293"
+       y="257.56"
+       id="text2757"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2759"
+         x="1015.3293"
+         y="257.56">Il Studento di Ingegneria</tspan><tspan
+         sodipodi:role="line"
+         x="1015.3293"
+         y="307.56"
+         id="tspan2761">Elettronica ed Informatica</tspan><tspan
+         sodipodi:role="line"
+         x="1015.3293"
+         y="357.56"
+         id="tspan2763" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:EideticNeo"
+       x="625"
+       y="732.5"
+       id="text2765"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan2767"
+         x="625"
+         y="732.5">A Survival Guide for E&amp;CE Students</tspan><tspan
+         sodipodi:role="line"
+         x="625"
+         y="746.5"
+         id="tspan2769">at the University of Waterloo</tspan></text>
+    <rect
+       style="fill:#fc3;fill-opacity:1;stroke:none;stroke-width:1.51181853;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:5.4000001;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1877"
+       width="93.75"
+       height="837.5"
+       x="1025"
+       y="-5"
+       ry="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:white;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:2.5,2.5;stroke-dashoffset:0"
+       d="M 625,-5 L 625,201.25"
+       id="path2767"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="fill:black;fill-opacity:1;stroke:none;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.5, 2.5;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2769"
+       width="12.5"
+       height="12.5"
+       x="1037.5"
+       y="207.5" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text2771"
+       y="345"
+       x="1013.8672"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:SolexMedium"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan2779"
+         x="1013.8672"
+         y="345">The Electrical and Computer</tspan><tspan
+         sodipodi:role="line"
+         id="tspan2781"
+         x="1013.8672"
+         y="370">Engineering Student</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr;text-anchor:middle;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:SolexMedium"
+       x="280.64453"
+       y="782.5"
+       id="text2785"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2789"
+         x="280.64453"
+         y="782.5">THE BEATINGS WILL STOP WHEN MORALE IMPROVES</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:white;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 168.75,782.5 L 168.75,770 L 350,770"
+       id="path2791" />
+    <path
+       style="fill:white;fill-opacity:0;stroke:none;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.5, 2.5;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 106.25,63.75 L 97.5,82.5 L 92.5,82.5 L 92.187273,268.50999 L 268.75,270 L 268.75,63.75 L 106.25,63.75 z "
+       id="rect2803"
+       sodipodi:nodetypes="ccccccc" />
+    <flowRoot
+       xml:space="preserve"
+       style="font-size:13;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:140%;writing-mode:lr;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:SolexMedium"
+       id="flowRoot2805"
+       transform="translate(0.435547,-0.450666)"><flowRegion
+         id="flowRegion2807"><use
+           x="0"
+           y="0"
+           xlink:href="#rect2803"
+           id="use2809"
+           width="1116"
+           height="832.5"
+           transform="translate(1.12718,145.6907)" /></flowRegion><flowPara
+         id="flowPara2815">n 1513, Niccolò Machiavelli, wrote his famous book, “Il Principe” which sought to explain how a prince must conduct himself to maintain control over his territories. Much of what he said was brutally honest and somewhat insulting. This book is designed to give the brutally honest advice on “life” here in E&amp;CE and is not meant to insult…although it will, shamelessly.</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:EideticNeo"
+       x="92.779999"
+       y="83.349998"
+       id="text2817"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2819"
+         x="92.779999"
+         y="83.349998"
+         style="font-size:40px;fill:white;fill-opacity:1">I</tspan></text>
+    <path
+       id="path2764"
+       style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+       d="M 1056.875,656.875 L 1056.875,700.625 L 1063.125,706.875 L 1050.625,719.375 L 1063.125,731.875 L 1050.625,744.375 L 1063.125,756.875 L 1056.875,763.125 L 1056.875,831.875 M 1025,201.25 L 1056.875,200.625 L 1056.25,501.25 C 1056.25,501.25 1068.75,501.25 1068.75,513.75 C 1068.75,526.25 1056.25,526.25 1056.25,526.25 C 1056.25,526.25 1068.75,526.25 1068.75,538.75 C 1068.75,551.25 1056.25,551.25 1056.25,551.25 C 1056.25,551.25 1068.75,551.25 1068.75,563.75 C 1068.75,576.25 1056.25,576.25 1056.25,576.25 C 1056.25,576.25 1068.75,576.25 1068.75,588.75 C 1068.75,601.25 1056.875,600.625 1056.875,600.625 L 1056.875,650.625 M 1038,650.75 L 1075.5,650.75 M 1038,663.25 C 1038,657 1056.75,657 1056.75,657 C 1056.75,657 1075.5,657 1075.5,663.25"
+       sodipodi:nodetypes="ccccccccccccscscscsccccccc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:white;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 625,201.25 L 1025,201.25"
+       id="path3743"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>
