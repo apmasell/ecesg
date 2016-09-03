@@ -1,0 +1,19 @@
+sudo: required
+dist: trusty
+before_script:
+- sudo apt-get update -qq
+- sudo apt-get install -qq -y --force-yes make texlive-latex-base texlive-latex-extra
+  texlive-metapost transfig
+script: make && mkdir -p www && cp ECESG.pdf www
+notifications:
+  on_success: never
+  on_failure: change
+deploy:
+  provider: s3
+  access_key_id: AKIAJY7JELRUQJ6ESEWA
+  secret_access_key:
+    secure: JVR/e8r29BvqX6t+U07dNxR9w3g213GwwUCgT1zIb6rZruvckJTo6L0L4745XBFkXW7t7aR5+9mNYagmRqa9dVpHcQL0vpixPObEv0/ipKqHy6QfFutloDqVpSJ7pYL66HijzCo5BOOlxgEnRpZ55ryDso65xObapZFqc07Im88=
+  bucket: artefacts.masella.name
+  skip_cleanup: true
+  local_dir: www
+  acl: public_read
